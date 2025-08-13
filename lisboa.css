@@ -36,8 +36,8 @@ body {
   overflow: hidden;
 }
 .grid__item img {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 70%;
   object-fit: cover;
   display: block;
 }
@@ -45,13 +45,13 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: rgba(7, 226, 32, 0.5);
+  color: rgb(98, 88, 88);
   padding: 0.5rem;
   font-weight: bold;
 }
 .imagem__cidade--reduzida img {
-  width: 90%;
+  width: 50%;
   height: auto;
 }
 .grid__item--lisboa01 {
@@ -68,10 +68,10 @@ body {
 }
 .pacote__viagem {
   background: var(--cor-texto);
-  color: white;
+  color: rgb(235, 20, 20);
   padding: 1rem;
   margin: 1rem auto;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 .botoes__navegacao {
